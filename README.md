@@ -13,6 +13,17 @@ Ele utiliza **templates declarativos** (em **JSON** ou **YAML**) para provisiona
 - **Versionamento:** templates podem ser versionados para rastrear mudanças na infraestrutura.  
 
 ---
+## Passo a passo
+- Acessar a plataforma da CloundFormation na AWS.
+- Marcar a opção "Escolher um modelo existente" nos pré-requisitos.
+- Escolher o arquivo JSON/YAML com a opção "Fazer upload de um arquivo de modelo" marcada.
+  ``` Dica
+  É possível ver de forma gráfica a estrutura do projeto clicando em "Visualizar no Infrastructure Composer".
+  ```
+- Fornecer o nome da pilha
+- Adicionar etiquetas, permições e opções de falha são opcionais.
+- Pronto! Criado com sucesso.
+---
 
 ## 🚀 Exemplo de Template JSON (EC2)
 
